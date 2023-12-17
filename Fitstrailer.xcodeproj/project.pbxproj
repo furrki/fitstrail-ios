@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB1232592B2F97DD002EC4E3 /* ProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1232582B2F97DD002EC4E3 /* ProgramView.swift */; };
+		FB12325C2B2F98DF002EC4E3 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB12325B2B2F98DF002EC4E3 /* Program.swift */; };
+		FB12325E2B2F98FE002EC4E3 /* Excercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB12325D2B2F98FE002EC4E3 /* Excercise.swift */; };
+		FB1232602B2F9A89002EC4E3 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB12325F2B2F9A89002EC4E3 /* Day.swift */; };
+		FB1232622B2F9C0E002EC4E3 /* DayRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1232612B2F9C0E002EC4E3 /* DayRowView.swift */; };
 		FB66FDF12B2F967000AD12BF /* FitstrailerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66FDF02B2F967000AD12BF /* FitstrailerApp.swift */; };
 		FB66FDF32B2F967000AD12BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66FDF22B2F967000AD12BF /* ContentView.swift */; };
 		FB66FDF52B2F967000AD12BF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66FDF42B2F967000AD12BF /* Item.swift */; };
@@ -15,6 +20,7 @@
 		FB66FE042B2F967100AD12BF /* FitstrailerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66FE032B2F967100AD12BF /* FitstrailerTests.swift */; };
 		FB66FE0E2B2F967100AD12BF /* FitstrailerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66FE0D2B2F967100AD12BF /* FitstrailerUITests.swift */; };
 		FB66FE102B2F967100AD12BF /* FitstrailerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66FE0F2B2F967100AD12BF /* FitstrailerUITestsLaunchTests.swift */; };
+		FB66FE222B2F970700AD12BF /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66FE212B2F970700AD12BF /* MainTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB1232582B2F97DD002EC4E3 /* ProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramView.swift; sourceTree = "<group>"; };
+		FB12325B2B2F98DF002EC4E3 /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		FB12325D2B2F98FE002EC4E3 /* Excercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercise.swift; sourceTree = "<group>"; };
+		FB12325F2B2F9A89002EC4E3 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		FB1232612B2F9C0E002EC4E3 /* DayRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayRowView.swift; sourceTree = "<group>"; };
 		FB66FDED2B2F967000AD12BF /* Fitstrailer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitstrailer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB66FDF02B2F967000AD12BF /* FitstrailerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitstrailerApp.swift; sourceTree = "<group>"; };
 		FB66FDF22B2F967000AD12BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +57,7 @@
 		FB66FE092B2F967100AD12BF /* FitstrailerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitstrailerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB66FE0D2B2F967100AD12BF /* FitstrailerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitstrailerUITests.swift; sourceTree = "<group>"; };
 		FB66FE0F2B2F967100AD12BF /* FitstrailerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitstrailerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB66FE212B2F970700AD12BF /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB1232572B2F97CF002EC4E3 /* Program */ = {
+			isa = PBXGroup;
+			children = (
+				FB12325A2B2F98CD002EC4E3 /* Model */,
+				FB1232582B2F97DD002EC4E3 /* ProgramView.swift */,
+				FB1232612B2F9C0E002EC4E3 /* DayRowView.swift */,
+			);
+			path = Program;
+			sourceTree = "<group>";
+		};
+		FB12325A2B2F98CD002EC4E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB12325B2B2F98DF002EC4E3 /* Program.swift */,
+				FB12325D2B2F98FE002EC4E3 /* Excercise.swift */,
+				FB12325F2B2F9A89002EC4E3 /* Day.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FB66FDE42B2F967000AD12BF = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +128,13 @@
 		FB66FDEF2B2F967000AD12BF /* Fitstrailer */ = {
 			isa = PBXGroup;
 			children = (
+				FB66FE1D2B2F96BA00AD12BF /* Story */,
+				FB66FE1F2B2F96EA00AD12BF /* Model */,
+				FB66FE1C2B2F96B200AD12BF /* Resources */,
+				FB66FE1E2B2F96C400AD12BF /* Utils */,
 				FB66FDF02B2F967000AD12BF /* FitstrailerApp.swift */,
 				FB66FDF22B2F967000AD12BF /* ContentView.swift */,
 				FB66FDF42B2F967000AD12BF /* Item.swift */,
-				FB66FDF62B2F967100AD12BF /* Assets.xcassets */,
-				FB66FDF82B2F967100AD12BF /* Preview Content */,
 			);
 			path = Fitstrailer;
 			sourceTree = "<group>";
@@ -128,6 +162,46 @@
 				FB66FE0F2B2F967100AD12BF /* FitstrailerUITestsLaunchTests.swift */,
 			);
 			path = FitstrailerUITests;
+			sourceTree = "<group>";
+		};
+		FB66FE1C2B2F96B200AD12BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB66FDF82B2F967100AD12BF /* Preview Content */,
+				FB66FDF62B2F967100AD12BF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB66FE1D2B2F96BA00AD12BF /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				FB1232572B2F97CF002EC4E3 /* Program */,
+				FB66FE202B2F96F900AD12BF /* Main */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		FB66FE1E2B2F96C400AD12BF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FB66FE1F2B2F96EA00AD12BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB66FE202B2F96F900AD12BF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FB66FE212B2F970700AD12BF /* MainTabBar.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +334,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB66FE222B2F970700AD12BF /* MainTabBar.swift in Sources */,
 				FB66FDF32B2F967000AD12BF /* ContentView.swift in Sources */,
+				FB1232602B2F9A89002EC4E3 /* Day.swift in Sources */,
+				FB12325C2B2F98DF002EC4E3 /* Program.swift in Sources */,
+				FB12325E2B2F98FE002EC4E3 /* Excercise.swift in Sources */,
 				FB66FDF52B2F967000AD12BF /* Item.swift in Sources */,
+				FB1232592B2F97DD002EC4E3 /* ProgramView.swift in Sources */,
 				FB66FDF12B2F967000AD12BF /* FitstrailerApp.swift in Sources */,
+				FB1232622B2F9C0E002EC4E3 /* DayRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +505,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Fitstrailer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Fitstrailer/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = TU6A9VFP8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -454,7 +534,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Fitstrailer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Fitstrailer/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = TU6A9VFP8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
