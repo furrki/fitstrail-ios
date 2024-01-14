@@ -10,7 +10,7 @@
 		36C541382B338EE50079793B /* DailyProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C541372B338EE50079793B /* DailyProgramView.swift */; };
 		FB1232592B2F97DD002EC4E3 /* ProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1232582B2F97DD002EC4E3 /* ProgramView.swift */; };
 		FB12325C2B2F98DF002EC4E3 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB12325B2B2F98DF002EC4E3 /* Program.swift */; };
-		FB12325E2B2F98FE002EC4E3 /* Excercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB12325D2B2F98FE002EC4E3 /* Excercise.swift */; };
+		FB12325E2B2F98FE002EC4E3 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB12325D2B2F98FE002EC4E3 /* Exercise.swift */; };
 		FB1232602B2F9A89002EC4E3 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB12325F2B2F9A89002EC4E3 /* Day.swift */; };
 		FB1232622B2F9C0E002EC4E3 /* DayRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1232612B2F9C0E002EC4E3 /* DayRowView.swift */; };
 		FB66FDF12B2F967000AD12BF /* FitstrailerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB66FDF02B2F967000AD12BF /* FitstrailerApp.swift */; };
@@ -45,7 +45,7 @@
 		36C541372B338EE50079793B /* DailyProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyProgramView.swift; sourceTree = "<group>"; };
 		FB1232582B2F97DD002EC4E3 /* ProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramView.swift; sourceTree = "<group>"; };
 		FB12325B2B2F98DF002EC4E3 /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
-		FB12325D2B2F98FE002EC4E3 /* Excercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercise.swift; sourceTree = "<group>"; };
+		FB12325D2B2F98FE002EC4E3 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		FB12325F2B2F9A89002EC4E3 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		FB1232612B2F9C0E002EC4E3 /* DayRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayRowView.swift; sourceTree = "<group>"; };
 		FB66FDED2B2F967000AD12BF /* Fitstrailer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitstrailer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,8 +92,8 @@
 			children = (
 				FB12325A2B2F98CD002EC4E3 /* Model */,
 				FB1232582B2F97DD002EC4E3 /* ProgramView.swift */,
-				36C541372B338EE50079793B /* DailyProgramView.swift */,
 				FB1232612B2F9C0E002EC4E3 /* DayRowView.swift */,
+				36C541372B338EE50079793B /* DailyProgramView.swift */,
 			);
 			path = Program;
 			sourceTree = "<group>";
@@ -102,7 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				FB12325B2B2F98DF002EC4E3 /* Program.swift */,
-				FB12325D2B2F98FE002EC4E3 /* Excercise.swift */,
+				FB12325D2B2F98FE002EC4E3 /* Exercise.swift */,
 				FB12325F2B2F9A89002EC4E3 /* Day.swift */,
 			);
 			path = Model;
@@ -342,7 +342,7 @@
 				FB1232602B2F9A89002EC4E3 /* Day.swift in Sources */,
 				36C541382B338EE50079793B /* DailyProgramView.swift in Sources */,
 				FB12325C2B2F98DF002EC4E3 /* Program.swift in Sources */,
-				FB12325E2B2F98FE002EC4E3 /* Excercise.swift in Sources */,
+				FB12325E2B2F98FE002EC4E3 /* Exercise.swift in Sources */,
 				FB66FDF52B2F967000AD12BF /* Item.swift in Sources */,
 				FB1232592B2F97DD002EC4E3 /* ProgramView.swift in Sources */,
 				FB66FDF12B2F967000AD12BF /* FitstrailerApp.swift in Sources */,

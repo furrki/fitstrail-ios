@@ -11,5 +11,5 @@ struct Day: Codable, Identifiable {
     var id: UUID = UUID()
     var name: String
     var description: String
-    var excercises: [Excercise]
+    var exercises: [Exercise]
 }
