@@ -21,9 +21,10 @@ struct ProgramView: View {
                 }
                 .padding()
                 List(program.days) { day in
-                    NavigationLink(destination: DayRowView(day: day)) {
+                    NavigationLink(destination: DailyProgramView()) {
                         DayRowView(day: day)
                     }
+
                 }
             }
         }
