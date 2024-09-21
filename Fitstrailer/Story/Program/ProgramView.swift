@@ -16,6 +16,7 @@ struct ProgramView: View {
                 VStack(alignment: .leading) {
                     Text(program.name)
                         .font(.largeTitle)
+                    Text("Push")
                     Text(program.description)
                         .font(.subheadline)
                 }
