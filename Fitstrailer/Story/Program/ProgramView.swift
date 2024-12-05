@@ -16,14 +16,16 @@ struct ProgramView: View {
                 VStack(alignment: .leading) {
                     Text(program.name)
                         .font(.largeTitle)
+                    Text("Push")
                     Text(program.description)
                         .font(.subheadline)
                 }
                 .padding()
                 List(program.days) { day in
-                    NavigationLink(destination: DayRowView(day: day)) {
+                    NavigationLink(destination: DailyProgramView()) {
                         DayRowView(day: day)
                     }
+
                 }
             }
         }

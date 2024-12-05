@@ -17,8 +17,8 @@ struct Program: Codable, Identifiable {
     static func all() -> [Program] {
         return [
             Program(name: "5x5", description: "5x5 Description", days: [
-                Day(name: "Day 1", description: "Day 1 Description", excercises: [
-                    Excercise(name: "Bench Press", description: "Bench Press Description", repeats: 10, sets: 3, rest: 60, image: "benchpress", exampleVideo: "https://www.youtube.com/watch?v=U4BS9EXFTOg")
+                Day(name: "Day 1", description: "Day 1 Description", exercises: [
+                    Exercise(order: 1, name: "Bench Press", description: "Bench Press Description", repeats: 10, sets: 3, rest: 60, image: "benchpress", exampleVideo: "https://www.youtube.com/watch?v=U4BS9EXFTOg")
                 ]),
             ])
         ]
